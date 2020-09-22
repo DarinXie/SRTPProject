@@ -2,12 +2,12 @@
   Created by IntelliJ IDEA.
   User: Darin
   Date: 2020/9/22
-  Time: 18:47
+  Time: 19:52
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<div class="head">
+<div class="head ding">
     <div class="wrapper clearfix">
         <div class="clearfix" id="top"><h1 class="fl"><a href="index.jsp"><img src="img/logo.png"/></a></h1>
             <div class="fr clearfix" id="top1"><p class="fl"><a href="#" id="login">登录</a><a href="#" id="reg">注册</a>

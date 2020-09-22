@@ -14,66 +14,8 @@ To change this template use File | Settings | File Templates.
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
 <body><!------------------------------head------------------------------>
-<div class="head">
-    <div class="wrapper clearfix">
-        <div class="clearfix" id="top"><h1 class="fl"><a href="index.jsp"><img src="img/logo.png"/></a></h1>
-            <div class="fr clearfix" id="top1"><p class="fl"><a href="#" id="login">登录</a><a href="#" id="reg">注册</a>
-            </p>
-                <form action="#" method="get" class="fl"><input type="text" placeholder="热门搜索：干花花瓶"/><input
-                        type="button"/></form>
-                <div class="btn fl clearfix"><a href="mygxin.jsp"><img src="img/grzx.png"/></a><a href="#" class="er1"><img
-                        src="img/ewm.png"/></a><a href="cart.jsp"><img src="img/gwc.png"/></a>
-                    <p><a href="#"><img src="img/smewm.png"/></a></p></div>
-            </div>
-        </div>
-        <ul class="clearfix" id="bott">
-            <li><a href="index.jsp">首页</a></li>
-            <li><a href="#">服务分类</a>
-                <div class="sList">
-                    <div class="wrapper  clearfix"><a href="paint.jsp">
-                        <dl>
-                            <dt><img src="img/nav1.jpg"/></dt>
-                            <dd>普通A4打印</dd>
-                        </dl>
-                    </a><a href="paint.jsp">
-                        <dl>
-                            <dt><img src="img/nav2.jpg"/></dt>
-                            <dd>论文排版打印</dd>
-                        </dl>
-                    </a><a href="paint.jsp">
-                        <dl>
-                            <dt><img src="img/nav3.jpg"/></dt>
-                            <dd>高清海报制作打印</dd>
-                        </dl>
-                    </a><a href="paint.jsp">
-                        <dl>
-                            <dt><img src="img/nav6.jpg"/></dt>
-                            <dd>相册制作</dd>
-                        </dl>
-                    </a><a href="paint.jsp">
-                        <dl>
-                            <dt><img src="img/nav7.jpg"/></dt>
-                            <dd>横幅制作</dd>
-                        </dl>
-                    </a></div>
-                </div>
-            </li>
-            <li><a href="flowerDer.jsp">装饰摆件</a>
-                <div class="sList2">
-                    <div class="clearfix"><a href="proList.jsp">干花花艺</a><a href="vase_proList.jsp">花瓶花器</a></div>
-                </div>
-            </li>
-            <li><a href="decoration.jsp">布艺软饰</a>
-                <div class="sList2">
-                    <div class="clearfix"><a href="zbproList.jsp">桌布罩件</a><a href="bzproList.jsp">抱枕靠垫</a></div>
-                </div>
-            </li>
-            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">关于我们</a></li>
-            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">加入我们</a></li>
-            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">GitHub</a></li>
-        </ul>
-    </div>
-</div><!-------------------------banner--------------------------->
+<%@include file="head.jsp"%>
+<!-------------------------banner--------------------------->
 <div class="block_home_slider">
     <div id="home_slider" class="flexslider">
         <ul class="slides">
@@ -244,22 +186,9 @@ To change this template use File | Settings | File Templates.
         <dd>返回<br/>顶部</dd>
     </dl>
 </a>
-    <p>400-800-8200</p></div><!-------------------login--------------------------><!--footer-->
-<div class="footer">
-    <div class="top">
-        <div class="wrapper">
-            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot1.png"/></a><span class="fl">7天无理由退货</span>
-            </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot2.png"/></a><span class="fl">15天免费换货</span>
-            </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot3.png"/></a><span class="fl">满599包邮</span>
-            </div>
-            <div class="clearfix"><a href="#2" class="fl"><img src="img/foot4.png"/></a><span class="fl">手机特色服务</span>
-            </div>
-        </div>
-    </div>
-    <p class="dibu">最家家居&copy;2013-2017公司版权所有 京ICP备080100-44备0000111000号<br/>
-        违法和不良信息举报电话：400-800-8200，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p></div>
+    <p>400-800-8200</p></div><!-------------------login-------------------------->
+<!--footer-->
+<%@include file="foot.jsp"%>
 <script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/nav.js" type="text/javascript" charset="utf-8"></script>

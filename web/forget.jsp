@@ -9,7 +9,7 @@
 <html>
 <head lang="en">
     <meta charset="utf-8"/>
-    <title>forget</title>
+    <title>找回密码</title>
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
     <link rel="stylesheet" type="text/css" href="css/proList.css"/>
     <link rel="stylesheet" type="text/css" href="css/forget.css"/>
