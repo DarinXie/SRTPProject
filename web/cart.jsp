@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/proList.css"/>
 </head>
 <body><!--------------------------------------cart--------------------->
-<%@include file="headding.jsp"%>>
+<%@include file="headding.jsp"%>
 <div class="cart mt"><!-----------------logo------------------->
     <!--<div class="logo"><h1 class="wrapper clearfix"><a href="index.jsp"><img class="fl" src="img/temp/logo.png"></a><img class="top" src="img/temp/cartTop01.png"></h1></div>-->
     <!-----------------site------------------->

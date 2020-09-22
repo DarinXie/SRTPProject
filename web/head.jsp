@@ -20,8 +20,8 @@
             </div>
         </div>
         <ul class="clearfix" id="bott">
-            <li><a href="index.jsp">首页</a></li>
-            <li><a href="#">服务分类</a>
+            <li><a href="index.jsp" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">服务分类</a>
                 <div class="sList">
                     <div class="wrapper  clearfix"><a href="paint.jsp">
                         <dl>
@@ -51,12 +51,12 @@
                     </a></div>
                 </div>
             </li>
-            <li><a href="flowerDer.jsp">装饰摆件</a>
+            <li><a href="flowerDer.jsp" target="_blank">装饰摆件</a>
                 <div class="sList2">
                     <div class="clearfix"><a href="proList.jsp">干花花艺</a><a href="vase_proList.jsp">花瓶花器</a></div>
                 </div>
             </li>
-            <li><a href="decoration.jsp">布艺软饰</a>
+            <li><a href="decoration.jsp" target="_blank">布艺软饰</a>
                 <div class="sList2">
                     <div class="clearfix"><a href="zbproList.jsp">桌布罩件</a><a href="bzproList.jsp">抱枕靠垫</a></div>
                 </div>
