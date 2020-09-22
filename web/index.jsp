@@ -9,7 +9,7 @@ To change this template use File | Settings | File Templates.
 <html>
 <head lang="en">
     <meta charset="utf-8"/>
-    <title>最家</title>
+    <title>print</title>
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
@@ -28,32 +28,32 @@ To change this template use File | Settings | File Templates.
         </div>
         <ul class="clearfix" id="bott">
             <li><a href="index.jsp">首页</a></li>
-            <li><a href="#">所有商品</a>
+            <li><a href="#">服务分类</a>
                 <div class="sList">
                     <div class="wrapper  clearfix"><a href="paint.jsp">
                         <dl>
                             <dt><img src="img/nav1.jpg"/></dt>
-                            <dd>浓情欧式</dd>
+                            <dd>普通A4打印</dd>
                         </dl>
                     </a><a href="paint.jsp">
                         <dl>
                             <dt><img src="img/nav2.jpg"/></dt>
-                            <dd>浪漫美式</dd>
+                            <dd>论文排版打印</dd>
                         </dl>
                     </a><a href="paint.jsp">
                         <dl>
                             <dt><img src="img/nav3.jpg"/></dt>
-                            <dd>雅致中式</dd>
+                            <dd>高清海报制作打印</dd>
                         </dl>
                     </a><a href="paint.jsp">
                         <dl>
                             <dt><img src="img/nav6.jpg"/></dt>
-                            <dd>简约现代</dd>
+                            <dd>相册制作</dd>
                         </dl>
                     </a><a href="paint.jsp">
                         <dl>
                             <dt><img src="img/nav7.jpg"/></dt>
-                            <dd>创意装饰</dd>
+                            <dd>横幅制作</dd>
                         </dl>
                     </a></div>
                 </div>
@@ -68,9 +68,9 @@ To change this template use File | Settings | File Templates.
                     <div class="clearfix"><a href="zbproList.jsp">桌布罩件</a><a href="bzproList.jsp">抱枕靠垫</a></div>
                 </div>
             </li>
-            <li><a href="paint.jsp">墙式壁挂</a></li>
-            <li><a href="perfume.jsp">蜡艺香薰</a></li>
-            <li><a href="idea.jsp">创意家居</a></li>
+            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">关于我们</a></li>
+            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">加入我们</a></li>
+            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">GitHub</a></li>
         </ul>
     </div>
 </div><!-------------------------banner--------------------------->

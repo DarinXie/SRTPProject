@@ -69,9 +69,9 @@
                     <div class="clearfix"><a href="zbproList.jsp">桌布罩件</a><a href="bzproList.jsp">抱枕靠垫</a></div>
                 </div>
             </li>
-            <li><a href="paint.jsp">墙式壁挂</a></li>
-            <li><a href="perfume.jsp">蜡艺香薰</a></li>
-            <li><a href="idea.jsp">创意家居</a></li>
+            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">墙式壁挂</a></li>
+            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">蜡艺香薰</a></li>
+            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">创意家居</a></li>
         </ul>
     </div>
 </div><!-----------------banner------------------------------->
