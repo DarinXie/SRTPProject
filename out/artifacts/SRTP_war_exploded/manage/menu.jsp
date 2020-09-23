@@ -35,12 +35,12 @@
                     <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
                     <ul class="sub-menu">
                         <!-- 这里还需要再加点什么？ -->
-                        <li><a href="design.jsp"><i class="icon-font">&#xe005;</i>商铺管理</a></li>
-                        <li><a href="design.jsp"><i class="icon-font">&#xe008;</i>用户管理</a></li>
-                        <li><a href="design.jsp"><i class="icon-font">&#xe012;</i>评论管理</a></li>
-                        <li><a href="design.jsp"><i class="icon-font">&#xe033;</i>广告管理</a></li>
-                        <li><a href="design.jsp"><i class="icon-font">&#xe004;</i>用户反馈</a></li>
-                        <li><a href="design.jsp"><i class="icon-font">&#xe052;</i>友情链接</a></li>
+                        <li><a href="shopAdd.jsp"><i class="icon-font">&#xe005;</i>商铺管理</a></li>
+                        <li><a href="shopAdd.jsp"><i class="icon-font">&#xe008;</i>用户管理</a></li>
+                        <li><a href="shopAdd.jsp"><i class="icon-font">&#xe012;</i>评论管理</a></li>
+                        <li><a href="shopAdd.jsp"><i class="icon-font">&#xe033;</i>广告管理</a></li>
+                        <li><a href="shopAdd.jsp"><i class="icon-font">&#xe004;</i>用户反馈</a></li>
+                        <li><a href="shopAdd.jsp"><i class="icon-font">&#xe052;</i>友情链接</a></li>
                     </ul>
                 </li>
                 <li>

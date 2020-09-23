@@ -20,7 +20,7 @@
             <form action="index.jsp" method="post">
                 <ul class="admin_items">
                     <li>
-                        <label for="user">用户名：</label>
+                        <label for="user">管理账号：</label>
                         <input type="text" name="username" value="admin" id="user" size="40" class="admin_input_style" />
                     </li>
                     <li>
@@ -34,7 +34,7 @@
             </form>
         </div>
     </div>
-    <p class="admin_copyright"><a tabindex="5" href="#" target="_blank">返回首页</a> &copy; 2020 Powered by <a href="#" target="_blank">Darin And His Friends</a></p>
+    <p class="admin_copyright"><a tabindex="5" href="#" target="_blank">返回首页</a> &copy; 2020 Powered by Darin And His Friends</p>
 </div>
 </body>
 </html>
