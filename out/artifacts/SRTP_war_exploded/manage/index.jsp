@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
+<%@include file="header.jsp"%>
+<div class="container clearfix">
 <%@include file="menu.jsp"%>
     <!--/sidebar-->
     <div class="main-wrap">
