@@ -32,10 +32,10 @@
             </div>
             <div class="result-content">
                 <div class="short-wrap">
-                    <a href="shopInsert.jsp"><i class="icon-font">&#xe001;</i>新增作品</a>
-                    <a href="shopInsert.jsp"><i class="icon-font">&#xe005;</i>新增博文</a>
-                    <a href="shopInsert.jsp"><i class="icon-font">&#xe048;</i>新增作品分类</a>
-                    <a href="shopInsert.jsp"><i class="icon-font">&#xe041;</i>新增博客分类</a>
+                    <a href="userManage.jsp"><i class="icon-font">&#xe001;</i>新增作品</a>
+                    <a href="userManage.jsp"><i class="icon-font">&#xe005;</i>新增博文</a>
+                    <a href="userManage.jsp"><i class="icon-font">&#xe048;</i>新增作品分类</a>
+                    <a href="userManage.jsp"><i class="icon-font">&#xe041;</i>新增博客分类</a>
                     <a href="#"><i class="icon-font">&#xe01e;</i>作品评论</a>
                 </div>
             </div>
@@ -59,13 +59,10 @@
                         <label class="res-lab">静静设计-版本</label><span class="res-info">v-0.1</span>
                     </li>
                     <li>
-                        <label class="res-lab">上传附件限制</label><span class="res-info">2M</span>
+                        <label class="res-lab">上传附件限制</label><span class="res-info">10M</span>
                     </li>
                     <li>
-                        <label class="res-lab">北京时间</label><span class="res-info">2019年3月18日 21:08:24</span>
-                    </li>
-                    <li>
-                        <label class="res-lab">服务器域名/IP</label><span class="res-info">localhost [ 127.0.0.1 ]</span>
+                        <label class="res-lab">服务器域名/IP</label><span class="res-info">localhost [ 127.0.0.1:8888 ]</span>
                     </li>
                     <li>
                         <label class="res-lab">Host</label><span class="res-info">127.0.0.1</span>
@@ -80,7 +77,7 @@
             <div class="result-content">
                 <ul class="sys-info-list">
                     <li>
-                        <label class="res-lab">更多模板：</label><span class="res-info"><a href="http://www.lmonkey.com/" target="_blank">学习猿地</a></span>
+                        <label class="res-lab">获得帮助：</label><span class="res-info"><a href="https://github.com/DarinXie/SRTPProject" target="_blank">GitHub</a></span>
                     </li>
                 </ul>
             </div>

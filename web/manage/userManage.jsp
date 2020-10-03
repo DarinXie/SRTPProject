@@ -21,18 +21,18 @@
     <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/jscss/admin/design/">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="/jscss/admin/design/">作品管理</a><span class="crumb-step">&gt;</span><span>新增作品</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.jsp">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="user.jsp">用户</a><span class="crumb-step">&gt;</span><span>用户编辑</span></div>
         </div>
         <div class="result-wrap">
             <div class="result-content">
                 <form action="/jscss/admin/design/add" method="post" id="myform" name="myform" enctype="multipart/form-data">
                     <table class="insert-tab" width="100%">
                         <tbody><tr>
-                            <th width="120"><i class="require-red">*</i>分类：</th>
+                            <th width="120"><i class="require-red">*</i>用户类别：</th>
                             <td>
                                 <select name="colId" id="catid" class="required">
                                     <option value="">请选择</option>
-                                    <option value="19">精品界面</option><option value="20">推荐界面</option>
+                                    <option value="1">普通用户</option><option value="2">管理员</option>
                                 </select>
                             </td>
                         </tr>
