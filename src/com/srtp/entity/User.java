@@ -5,7 +5,7 @@ public class User {
     private String user_name;
     private String user_password;
     private String user_sex;
-    private String  user_birthday;
+    private String user_birthday;
     private String user_identity_code;
     private String user_email;
     private String user_mobile;

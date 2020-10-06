@@ -23,7 +23,7 @@
             <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span id="time">欢迎!</span></div>
             <script>
                 var d = new Date();
-                document.getElementById("time").innerHTML="欢迎 ! 今日时间 : "+d.getFullYear()+"年"+d.getMonth()+"月"+d.getDay()+"日";
+                document.getElementById("time").innerHTML="欢迎 ! 今日时间 : "+d.getFullYear()+"年"+(d.getMonth()+1)+"月"+d.getDate()+"日";
             </script>
         </div>
         <div class="result-wrap">

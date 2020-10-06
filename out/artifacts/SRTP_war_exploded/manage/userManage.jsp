@@ -25,34 +25,63 @@
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="/jscss/admin/design/add" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <form action="manage/doUserAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
                     <table class="insert-tab" width="100%">
-                        <tbody><tr>
-                            <th width="120"><i class="require-red">*</i>用户类别：</th>
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>ID：</th>
                             <td>
-                                <select name="colId" id="catid" class="required">
-                                    <option value="">请选择</option>
-                                    <option value="1">普通用户</option><option value="2">管理员</option>
-                                </select>
+                                <input class="common-text required" id="title" name="user_id" size="50" value="" type="text">
                             </td>
                         </tr>
                         <tr>
-                            <th><i class="require-red">*</i>标题：</th>
+                            <th><i class="require-red">*</i>用户名：</th>
                             <td>
-                                <input class="common-text required" id="title" name="title" size="50" value="" type="text">
+                                <input class="common-text required" id="title" name="user_name" size="50" value="" type="text">
                             </td>
                         </tr>
                         <tr>
-                            <th>作者：</th>
-                            <td><input class="common-text" name="author" size="50" value="admin" type="text"></td>
+                            <th><i class="require-red">*</i>密码：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="user_passWord" size="50" value="" type="text">
+                            </td>
                         </tr>
                         <tr>
-                            <th><i class="require-red">*</i>缩略图：</th>
-                            <td><input name="smallimg" id="" type="file"><!--<input type="submit" onclick="submitForm('/jscss/admin/design/upload')" value="上传图片"/>--></td>
+                            <th>性别：</th>
+                            <td>
+                                <input type="radio" name="user_sex" value="M" checked="checked">男
+                                <input type="radio" name="user_sex" value="F">女
+                            </td>
                         </tr>
                         <tr>
-                            <th>内容：</th>
-                            <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"></textarea></td>
+                            <th>出生日期：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="user_birthday" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>邮箱：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="user_email" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>手机号码：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="user_mobile" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>地址：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="user_address" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>备注：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="user_identity_code" size="50" value="" type="text">
+                            </td>
                         </tr>
                         <tr>
                             <th></th>
