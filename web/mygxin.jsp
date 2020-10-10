@@ -14,7 +14,7 @@ To change this template use File | Settings | File Templates.
     <link rel="stylesheet" type="text/css" href="css/mygxin.css"/>
 </head>
 <body><!------------------------------head------------------------------>
-<%@include file="headding.jsp"%>
+<%@include file="head.jsp"%>
 <!------------------------------idea------------------------------>
 <div class="address mt" id="add">
     <div class="wrapper clearfix"><a href="index.jsp" class="fl">首页</a><span>/</span><a href="mygxin.jsp" class="on">个人中心</a>

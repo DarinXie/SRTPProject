@@ -25,7 +25,7 @@
         </div>
         <div class="result-wrap">
             <div class="result-content">
-                <form action="servlet/user/doUserAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <form action="doUserAdd" method="post" id="myform" name="myform" enctype="multipart/form-data">
                     <table class="insert-tab" width="100%">
                         <tbody>
                         <tr>

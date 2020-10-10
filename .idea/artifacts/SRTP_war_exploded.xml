@@ -1,11 +1,19 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="SRTP:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/SRTP_war_exploded</output-path>
+    <output-path>E:/Tomcat/apache-tomcat-10.0.0-M7/webapps/SRTPProject</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="SRTPProject/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="SRTPProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.20.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" />
         </element>
       </element>
     </root>
