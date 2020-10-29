@@ -39,7 +39,7 @@ public class doUserAdd extends HttpServlet {
         // 加入到用户表中
         System.out.print(u);
 
-        // 成功或失败重定向
+        // 成功或失败重定向，还在测试
         if(true){
             resp.sendRedirect("user.jsp");
         }
