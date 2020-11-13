@@ -12,7 +12,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>doUserAdd</servlet-name>
-        <url-pattern>/doUserAdd</url-pattern>
+        <url-pattern>/manage/doUserAdd</url-pattern>
     </servlet-mapping>
 
 </web-app>
