@@ -34,9 +34,9 @@
                     </div>
                 </div>
             </li>
-            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">关于我们</a></li>
-            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">加入我们</a></li>
-            <li><a href="https://github.com/DarinXie/SRTPProject" target="_blank">GitHub</a></li>
+            <li><a href="https://github.com/LevsCherish/SRTPProject" target="_blank">关于我们</a></li>
+            <li><a href="https://github.com/LevsCherish/SRTPProject" target="_blank">加入我们</a></li>
+            <li><a href="https://github.com/LevsCherish/SRTPProject" target="_blank">GitHub</a></li>
         </ul>
     </div>
 </div>
