@@ -13,25 +13,31 @@ To change this template use File | Settings | File Templates.
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
-<body><!------------------------------head------------------------------>
+<body>
+<!------------------------------head------------------------------>
 <%@include file="head.jsp"%>
 <!-------------------------banner--------------------------->
 <div class="block_home_slider">
     <div id="home_slider" class="flexslider">
         <ul class="slides">
             <li>
-                <div class="slide"><img src="img/banner2.jpg"/></div>
+                <div class="slide"><a href="#" ><img src="img/banner2.png"/></a></div>
             </li>
             <li>
-                <div class="slide"><img src="img/banner1.jpg"/></div>
+                <div class="slide"><img src="img/banner1.png"/></div>
+            </li>
+            <li>
+                <div class="slide"><img src="img/banner3.png"/></div>
             </li>
         </ul>
     </div>
-</div><!------------------------------thImg------------------------------>
+</div>
+<!------------------------------thImg------------------------------>
 <div class="thImg">
-    <div class="clearfix"><a href="vase_proList.jsp"><img src="img/i1.jpg"/></a><a href="proList.jsp"><img
-            src="img/i2.jpg"/></a><a href="#2"><img src="img/i3.jpg"/></a></div>
-</div><!------------------------------news------------------------------>
+    <div class="clearfix"><a href="vase_proList.jsp"><img src="img/i1.png"/></a><a href="proList.jsp"><img
+            src="img/i2.png"/></a><a href="#2"><img src="img/i3.png"/></a></div>
+</div>
+<!------------------------------news------------------------------>
 <div class="news">
     <div class="wrapper"><h2><img src="img/ih1.jpg"/></h2>
         <div class="top clearfix"><a href="proDetail.jsp"><img src="img/n1.jpg"/>
